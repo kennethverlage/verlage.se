@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-konsulttjänster - Verlage Management AB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="images/website_logo_transparent_background.png" alt="Verlage Management AB Logo">
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Hem</a></li>
+            <li><a href="#about">Om oss</a></li>
+            <li><a href="#services">Tjänster</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <div class="language-selector">
+            <select id="language-switcher" onchange="switchLanguage()">
+                <option value="sv">Svenska</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 id="hero-title"></h1>
+            <p id="hero-description"></p>
+            <button class="cta-button" id="contact-button"></button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 id="about-title"></h2>
+        <p id="about-description"></p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 id="services-title"></h2>
+        <div class="services-grid" id="services-grid"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 id="contact-title"></h2>
+        <p id="contact-description"></p>
+        <form>
+            <input type="text" name="name" placeholder="Ditt namn" required>
+            <input type="email" name="email" placeholder="Din e-post" required>
+            <textarea name="message" placeholder="Ditt meddelande" required></textarea>
+            <button type="submit" class="cta-button" id="submit-button"></button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p id="footer-text"></p>
+    </footer>
+</body>
+
+</html>

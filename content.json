@@ -1,0 +1,36 @@
+{
+    "sv": {
+        "hero-title": "Lean och innovation som verkligen händer – med rätt IT",
+        "hero-description": "Vår metod är i världsklass. Vi levererar snabbt, skär bort slöseri, och får saker att hända som ingen annan.",
+        "contact-button": "Kontakta oss",
+        "about-title": "Om oss",
+        "about-description": "Vi är ett erfaret team av IT-konsulter som brinner för att hjälpa företag att nå sina digitala mål. Med vårt djupa kunnande inom ERP-system, microservices och moderna plattformar är vi ert självklara val för IT-modernisering.",
+        "services-title": "Våra tjänster",
+        "services": [
+            { "title": "IT-strategi och Rådgivning", "description": "Vi hjälper er att definiera en IT-strategi som passar just era affärsbehov och framtidsvisioner." },
+            { "title": "Systemintegration", "description": "Vi integrerar era befintliga system med modern teknik för att skapa helhetslösningar som fungerar sömlöst." },
+            { "title": "Digital Transformation", "description": "Vi guidar er genom hela den digitala transformationsresan för att maximera affärsnyttan av era IT-investeringar." }
+        ],
+        "contact-title": "Kontakta oss",
+        "contact-description": "Vill ni veta mer om hur vi kan hjälpa er? Hör av er så tar vi ett förutsättningslöst möte.",
+        "submit-button": "Skicka",
+        "footer-text": "Verlage Management AB © 2024. Alla rättigheter förbehållna."
+    },
+    "en": {
+        "hero-title": "Lean and Innovation that Truly Happen – with the Right IT",
+        "hero-description": "Our method is world-class. We deliver quickly, cut waste, and make things happen like no one else.",
+        "contact-button": "Contact Us",
+        "about-title": "About Us",
+        "about-description": "We are an experienced team of IT consultants passionate about helping companies achieve their digital goals. With our deep expertise in ERP systems, microservices, and modern platforms, we are your go-to choice for IT modernization.",
+        "services-title": "Our Services",
+        "services": [
+            { "title": "IT Strategy and Consulting", "description": "We help you define an IT strategy that suits your business needs and future visions." },
+            { "title": "System Integration", "description": "We integrate your existing systems with modern technology to create seamless solutions." },
+            { "title": "Digital Transformation", "description": "We guide you through the entire digital transformation journey to maximize the value of your IT investments." }
+        ],
+        "contact-title": "Contact Us",
+        "contact-description": "Want to learn more about how we can help you? Reach out to us for a no-obligation meeting.",
+        "submit-button": "Send",
+        "footer-text": "Verlage Management AB © 2024. All rights reserved."
+    }
+}
